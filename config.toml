@@ -1,0 +1,77 @@
+baseURL = "http://blog.cd5.jp/"
+languageCode = "ja-jp"
+title = "管理人の日記Part5"
+theme = "blackburn"
+# Shown in the side menu
+copyright = "&copy; 2019. Candle Doe All rights reserved."
+canonifyurls = true
+paginate = 10
+hasCJKLanguage = true
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "cd5.jp管理人 蝋燭の日記 第5部"
+  brand = "BLOG.CD5.JP"
+  googleAnalytics = ""
+  disqus = ""
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  highlightjs_extra_languages = ["yaml"]
+  # dateFormat = "02 Jan 2006, 15:04"
+  dateFormat = "2006-01-02 15:04"
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  custom_css = ["css/my.css"]
+  custom_js = ["js/my.js"]
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+#   [[menu.main]]
+#     name = "About"
+#     pre = "<i class='fa fa-user fa-fw'></i>"
+#     weight = 3
+#     identifier = "about"
+#     url = "/about/"
+#   [[menu.main]]
+#     name = "Contact"
+#     pre = "<i class='fa fa-phone fa-fw'></i>"
+#     weight = 4
+#     url = "/contact/"
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  twitter = "candle1388"
+
+  # SNS photo/video sharing
+
+  # SNS career oriented
+
+  # SNS news
+
+  # Techie
+  github = "Candle5000"
+
+  # Gaming
+
+  # Music
+
+  # Other

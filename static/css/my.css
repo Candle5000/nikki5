@@ -1,0 +1,31 @@
+body {
+    background-color: lemonchiffon;
+}
+.header,#menu .brand {
+    font-family: arial, sans-serif;
+}
+.header h2 {
+    color: #ca8;
+}
+
+.menu-link:hover, .menu-link:focus {
+    background-color: #432;
+}
+.menu-link {
+    background: rgba(68,51,18,0.7);
+}
+#menu {
+    background-color: #432;
+}
+
+@media (max-width: 48em) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+    .header h2 {
+        font-size: 1.1em;
+    }
+    h2 {
+        font-size: 1.25em;
+    }
+}
