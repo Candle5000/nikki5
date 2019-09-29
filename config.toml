@@ -14,7 +14,10 @@ hasCJKLanguage = true
 
 [params]
   # Shown in the home page
+  title = "管理人の日記Part5"
   subtitle = "cd5.jp管理人 蝋燭の日記 第5部"
+  description = "cd5.jp管理人 蝋燭の日記 第5部"
+  images = ["img/site-feature-image.png"]
   brand = "BLOG.CD5.JP"
   googleAnalytics = ""
   disqus = "guan-li-ren-nori-ji-part5"
