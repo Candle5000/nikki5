@@ -17,7 +17,7 @@ hasCJKLanguage = true
   subtitle = "cd5.jp管理人 蝋燭の日記 第5部"
   brand = "BLOG.CD5.JP"
   googleAnalytics = ""
-  disqus = ""
+  disqus = "guan-li-ren-nori-ji-part5"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
