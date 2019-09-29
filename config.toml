@@ -28,6 +28,10 @@ hasCJKLanguage = true
   custom_css = ["css/my.css"]
   # custom_js = ["js/my.js"]
 
+[taxonomies]
+  tag = "tags"
+  topic = "topics"
+
 [menu]
   # Shown in the side menu.
   [[menu.main]]
@@ -53,6 +57,18 @@ hasCJKLanguage = true
 #     pre = "<i class='fa fa-phone fa-fw'></i>"
 #     weight = 4
 #     url = "/contact/"
+  [[menu.main]]
+    name = "Topics"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    weight = 5
+    identifier = "topics"
+    url = "/topics/"
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 6
+    identifier = "tags"
+    url = "/tags/"
 
 [social]
   # Link your social networking accounts to the side menu
