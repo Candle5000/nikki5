@@ -1,4 +1,4 @@
-baseURL = "http://blog.cd5.jp/"
+baseURL = "https://blog.cd5.jp/"
 languageCode = "ja-jp"
 title = "管理人の日記Part5"
 theme = "blackburn"
