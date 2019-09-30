@@ -21,6 +21,7 @@ hasCJKLanguage = true
   brand = "BLOG.CD5.JP"
   googleAnalytics = ""
   disqus = "guan-li-ren-nori-ji-part5"
+  addThis = "ra-5d91a21edbfbfe68"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
