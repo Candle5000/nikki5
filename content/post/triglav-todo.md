@@ -4,7 +4,7 @@ date: 2019-10-01T12:26:05+09:00
 draft: false
 topics: [ "サイト開発" ]
 tags: [ "TRIGLAV", "TRIGLAV Indexes" ]
-images: [ "assets/trilgav-todo-1.png" ]
+images: [ "assets/triglav-todo-1.png" ]
 ---
 
 ![画像](/assets/triglav-todo-1.png "画像")
