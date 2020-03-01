@@ -19,7 +19,7 @@ hasCJKLanguage = true
   description = "cd5.jp管理人 蝋燭の日記 第5部"
   images = ["img/site-feature-image.png"]
   brand = "BLOG.CD5.JP"
-  googleAnalytics = ""
+  googleAnalytics = "UA-144743342-3"
   disqus = "guan-li-ren-nori-ji-part5"
   addThis = "ra-5d91a21edbfbfe68"
   # CSS name for highlight.js
