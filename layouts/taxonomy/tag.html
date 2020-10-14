@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+<div class="header">
+  <h1>{{ .Title }}</h1>
+</div>
+
+{{ partial "google_adsense.html" . }}
+
+<div class="content">
+  {{ range .Data.Pages }}
+    {{ .Render "summary"}}
+  {{ end }}
+</div>
+
+{{ partial "footer.html" . }}

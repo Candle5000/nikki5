@@ -20,6 +20,8 @@ hasCJKLanguage = true
   images = ["img/site-feature-image.png"]
   brand = "BLOG.CD5.JP"
   googleAnalytics = "UA-144743342-3"
+  googleAdsenseId = "ca-pub-5908052326802473"
+  googleAdsenseUnit = "5845995840"
   disqus = "guan-li-ren-nori-ji-part5"
   addThis = "ra-5d91a21edbfbfe68"
   # CSS name for highlight.js

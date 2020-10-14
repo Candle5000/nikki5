@@ -1,0 +1,18 @@
+{{ if and (.Site.Params.googleAdsenseId) (.Site.Params.googleAdsenseUnit) }}
+<div class="adsense">
+  {{ if .Site.IsServer }}
+  <div style="height: 80px; background-color: #4080c0">Ad Test</div>
+  {{ else }}
+  <ins
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="{{ .Site.Params.googleAdsenseId }}"
+    data-ad-slot="{{ .Site.Params.googleAdsenseUnit }}"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  {{ end }}
+</div>
+{{ end }}

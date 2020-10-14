@@ -7,6 +7,10 @@ body {
 .header h2 {
     color: #ca8;
 }
+.adsense {
+    padding: 0.4em 0;
+    border-bottom: 1px solid #eee;
+}
 
 .menu-link:hover, .menu-link:focus {
     background-color: #432;
